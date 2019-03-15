@@ -1,0 +1,6 @@
+type: object
+description: Path 1 Request Schema
+properties:
+  type:
+    type: string
+    description: A String Parameter

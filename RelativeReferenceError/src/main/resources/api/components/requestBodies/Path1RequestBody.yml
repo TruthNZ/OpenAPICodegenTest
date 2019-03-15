@@ -1,0 +1,5 @@
+content:
+  application/json:
+    schema:
+      $ref: ../schemas/Path1Request.yml
+description: Path 1 Request Body

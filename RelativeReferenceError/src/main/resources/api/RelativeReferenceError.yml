@@ -1,0 +1,16 @@
+openapi: 3.0.0
+info:
+  description: A demonstration API showing a Relative Reference Error
+  version: "1.0.0"
+  title: Relative Reference Error
+
+paths:
+  /path1:
+    post:
+      operationId: path1Post
+      description: A post to Path 1
+      requestBody:
+        $ref: components/requestBodies/Path1RequestBody.yml
+      responses:
+        '200':
+          description: An empty response

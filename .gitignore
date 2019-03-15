@@ -1,0 +1,8 @@
+build/
+.*
+!.gitignore
+bin/
+.aws
+.ansible
+*.retry
+/target/
